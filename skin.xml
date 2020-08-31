@@ -1,0 +1,63 @@
+<skin version="2" name="Iconic" author="" url="" email="" transparent_color="#66ccff">
+
+<player_window image="window_player.bmp">
+	<minimize position="217,10,231,28" image="title_minimize.bmp"/>
+	<minimode position="236,10,254,28" image="title_minimode.bmp"/>
+	<exit position="258,10,274,28" image="title_exit.bmp"/>
+
+	<playlist position="65,69,85,87" image="bar1_playlist.bmp"/>
+	<equalizer position="65,105,85,121" image="bar1_equalizer.bmp"/>
+	<lyric position="65,135,85,155" image="bar1_lyric.bmp"/>
+
+	<visual position="96,40,246,160"/>
+
+	<info position="96,164,207,176" color="#ffffff" font="Microsoft Sans Serif" font_size="14"/>
+	<led position="211,164,245,176" image="number.bmp" align="right"/>
+
+	<progress position="96,179,246,185" bar_image="progress_bar.bmp" thumb_image="progress_slide.bmp"/>
+
+	<play position="86,187,97,205" image="bar2_play.bmp"/>
+	<stop position="108,187,123,205" image="bar2_stop.bmp"/>
+	<pause position="135,187,148,205" image="bar2_pause.bmp"/>
+	<prev position="164,187,178,205" image="bar2_prev.bmp"/>
+	<next position="187,187,201,205" image="bar2_next.bmp"/>
+	<open position="213,187,231,205" image="bar2_open.bmp"/>
+	<icon position="240,189,255,204" icon=""/>
+
+	<volume position="69,238,140,247" vertical="false" bar_image="volume_bar.bmp" thumb_image="slide_horiz_thumb.bmp"/>
+</player_window>
+
+<lyric_window position="96,0,287,159" resize_rect="1,41,148,158" image="window_window.bmp">
+	<lyric position="0,40,150,160"/>
+</lyric_window>
+
+<equalizer_window position="96,0,287,159" image="window_equalizer.bmp" eq_interval="3">
+	<enabled position="20,65,35,80" image="eq.bmp"/>
+	<profile position="68,65,83,80" image="eq.bmp"/>
+	<reset position="116,65,131,80" image="eq.bmp"/>
+	<balance position="11,50,72,59" thumb_image="slide_horiz_thumb.bmp"/>
+	<surround position="80,50,141,59" thumb_image="slide_horiz_thumb.bmp"/>
+	<preamp position="11,85,20,151" thumb_image="slide_vert_thumb.bmp"/>
+	<eqfactor position="23,85,32,151" thumb_image="slide_vert_thumb.bmp"/>
+</equalizer_window>
+
+<playlist_window position="96,0,287,159" resize_rect="1,41,148,158" image="window_window.bmp">
+	<playlist position="0,40,150,160" selected_image="playlist_hot.bmp" splitter_bar_image="playlist_splitter.bmp" splitter_arrow_image="playlist_splitter_arrow.bmp"/>
+</playlist_window>
+
+<mini_window image="mini\player.bmp">
+	<minimize position="52,0,59,8" image="mini\title_minimize.bmp"/>
+	<minimode position="60,0,67,8" image="mini\title_normalmode.bmp"/>
+	<exit position="68,0,75,8" image="mini\title_exit.bmp"/>
+
+	<play position="31,9,73,51" image="mini\play.bmp"/>
+	<pause position="37,17,57,45" image="mini\pause.bmp"/>
+
+	<visual position="4,10,68,64"/>
+
+	<icon position="63,43,78,58" image="mini\icon.ico"/>
+
+	<lyric position="0,0,78,69" image="mini\cut.bmp"/>
+</mini_window>
+
+</skin>
